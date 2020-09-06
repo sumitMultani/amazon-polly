@@ -36,7 +36,7 @@ public class AmazonPollyApplication {
 
 	public AmazonPollyApplication(Region region) {
 		// create an Amazon Polly client in a specific region
-		BasicAWSCredentials credentials = new BasicAWSCredentials("AKIAVIQJFL4GNKHAIM26", "Hf+yKvnYpYbMCK1LW20pcHm7Q3QucIcmNtPREb6U");
+		BasicAWSCredentials credentials = new BasicAWSCredentials("acess_key", "secret_access_key");
 		polly = new AmazonPollyClient(credentials, new ClientConfiguration());
 		polly.setRegion(region);
 		
